@@ -1,0 +1,487 @@
+{
+  "users": {
+    "635717705": {
+      "xp": 70001,
+      "level": 9,
+      "messages": 7,
+      "warns": 0,
+      "bio": "",
+      "nickname": ""
+    },
+    "7488504859": {
+      "xp": 1,
+      "level": 1,
+      "messages": 1,
+      "warns": 0,
+      "bio": "",
+      "nickname": ""
+    }
+  },
+  "chats": {},
+  "-1003953082698": {
+    "users": {
+      "635717705": {
+        "xp": 100003,
+        "level": 9,
+        "messages": 3,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "Aaron_Cabrera",
+        "full_name": "Aaron Cabrera",
+        "join_date": "2026-05-17T15:52:07.722284"
+      }
+    },
+    "admins": {
+      "635717705": 3
+    }
+  },
+  "-1003409439408": {
+    "users": {
+      "874179312": {
+        "xp": 590,
+        "level": 1,
+        "messages": 255,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "Axuhen",
+        "full_name": "Ксюхен",
+        "warn_history": [],
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "635717705": {
+        "xp": 70298,
+        "level": 9,
+        "messages": 79,
+        "warns": 0,
+        "bio": "",
+        "nickname": "Разраб",
+        "username": "Aaron_Cabrera",
+        "full_name": "Aaron Cabrera",
+        "join_date": "2026-05-17T15:52:07.722284",
+        "waiting_nickname": false
+      },
+      "408429492": {
+        "xp": 436,
+        "level": 1,
+        "messages": 182,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "Fimiam2",
+        "full_name": "Фимиам Староверов",
+        "muted_until": "",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "812931341": {
+        "xp": 175,
+        "level": 1,
+        "messages": 85,
+        "warns": 0,
+        "bio": "",
+        "nickname": "прокат сухариков",
+        "username": "overdose_of_tranquillity",
+        "full_name": "Anastasia",
+        "muted_until": "",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "912268624": {
+        "xp": 343,
+        "level": 1,
+        "messages": 157,
+        "warns": 0,
+        "bio": "",
+        "nickname": "Буллер Надин без нег",
+        "username": "BadBadick",
+        "full_name": "Ваdick",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "6592750179": {
+        "xp": 6,
+        "level": 1,
+        "messages": 4,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "nadinshhh",
+        "full_name": "nnnnn",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "951322755": {
+        "xp": 306,
+        "level": 1,
+        "messages": 146,
+        "warns": 0,
+        "bio": "",
+        "nickname": "высокомерная сучка(",
+        "username": "Morsik6542",
+        "full_name": "Света",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "5030497038": {
+        "xp": 27,
+        "level": 1,
+        "messages": 13,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "kwiettaaa",
+        "full_name": "kwii",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "1031572105": {
+        "xp": 104,
+        "level": 1,
+        "messages": 30,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "katrina_204",
+        "full_name": "KatRiNa",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "865571557": {
+        "xp": 250,
+        "level": 1,
+        "messages": 119,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "globus_125",
+        "full_name": "Глеб",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "1093571010": {
+        "xp": 49,
+        "level": 1,
+        "messages": 17,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "justFairy25135",
+        "full_name": "Теперь просто Фея",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "5480693590": {
+        "xp": 40,
+        "level": 1,
+        "messages": 14,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "username": "Matildass_small",
+        "full_name": "Matilda Daughter",
+        "join_date": "2026-05-17T15:52:07.722284"
+      },
+      "7488504859": {
+        "xp": 0,
+        "level": 1,
+        "messages": 0,
+        "warns": 0,
+        "bio": "",
+        "nickname": "",
+        "warn_history": []
+      }
+    },
+    "admins": {
+      "635717705": 3,
+      "6592750179": 3,
+      "408429492": 2,
+      "912268624": 2
+    }
+  },
+  "applications": {
+    "1778834853": {
+      "id": "1778834853",
+      "user_id": 635717705,
+      "data": {
+        "name": "Миша",
+        "age": "28",
+        "district": "Покровка",
+        "visit": "Всегда",
+        "hobbies": "Пить водку",
+        "photo_id": "AgACAgIAAxkBAANxagbdo31GFPMHSRbk7sx8zZ-bObEAAsMeaxswdDhI6GmEmNQBOTYBAAMCAAN3AAM7BA",
+        "username": "@Aaron_Cabrera",
+        "user_id": 635717705
+      },
+      "votes": {
+        "635717705": "no"
+      },
+      "status": "rejected",
+      "created_at": "2026-05-15T15:47:33.453944"
+    },
+    "1778835757": {
+      "id": "1778835757",
+      "user_id": 635717705,
+      "data": {
+        "name": "Миша",
+        "age": "28",
+        "district": "Покровка",
+        "visit": "Всегда",
+        "hobbies": "Пью водку",
+        "photo_id": "AgACAgIAAxkBAANxagbdo31GFPMHSRbk7sx8zZ-bObEAAsMeaxswdDhI6GmEmNQBOTYBAAMCAAN3AAM7BA",
+        "username": "@Aaron_Cabrera",
+        "user_id": 635717705
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T16:02:37.086758"
+    },
+    "1778836236": {
+      "id": "1778836236",
+      "user_id": 7488504859,
+      "data": {
+        "name": "Миша",
+        "age": "28",
+        "district": "Покровка",
+        "visit": "Всегда",
+        "hobbies": "Пить водку",
+        "photo_id": "AgACAgIAAxkBAAOgagbjCqvBIl3t2itX4j0-l2nVaOAAAjgUaxtPtTlIhNExaV4I1gMBAAMCAAN3AAM7BA",
+        "username": "@нет",
+        "user_id": 7488504859
+      },
+      "votes": {
+        "635717705": "no"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T16:10:36.076102"
+    },
+    "1778836657": {
+      "id": "1778836657",
+      "user_id": 7488504859,
+      "data": {
+        "name": "Тест",
+        "age": "Тест",
+        "district": "Тест",
+        "visit": "Тест",
+        "hobbies": "Тест",
+        "photo_id": "AgACAgIAAxkBAAOxagbkr0FOVobuz3RYMsNjDy05_aIAAkAUaxtPtTlIrAAB_bdY3HvoAQADAgADeAADOwQ",
+        "username": "@нет",
+        "user_id": 7488504859
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T16:17:37.496166"
+    },
+    "1778836978": {
+      "id": "1778836978",
+      "user_id": 7488504859,
+      "data": {
+        "name": "Тест1",
+        "age": "Тест2",
+        "district": "Тест3",
+        "visit": "Тест4",
+        "hobbies": "Тест5",
+        "photo_id": "AgACAgIAAxkBAAOxagbkr0FOVobuz3RYMsNjDy05_aIAAkAUaxtPtTlIrAAB_bdY3HvoAQADAgADeAADOwQ",
+        "username": "@нет",
+        "user_id": 7488504859
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T16:22:58.615124"
+    },
+    "1778837943": {
+      "id": "1778837943",
+      "user_id": 635717705,
+      "data": {
+        "name": "Миша",
+        "age": "28",
+        "district": "Покровка",
+        "visit": "Всегда",
+        "hobbies": "Пью водку, делаю бота",
+        "photo_id": "AgACAgIAAxkBAANxagbdo31GFPMHSRbk7sx8zZ-bObEAAsMeaxswdDhI6GmEmNQBOTYBAAMCAAN3AAM7BA",
+        "username": "@Aaron_Cabrera",
+        "user_id": 635717705
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T16:39:03.019914"
+    },
+    "1778838226": {
+      "id": "1778838226",
+      "user_id": 635717705,
+      "data": {
+        "name": "Миша",
+        "age": "28",
+        "district": "Покровка",
+        "visit": "Всегда",
+        "hobbies": "Водка, пилотка, бот в тг",
+        "photo_id": "AgACAgIAAxkBAANxagbdo31GFPMHSRbk7sx8zZ-bObEAAsMeaxswdDhI6GmEmNQBOTYBAAMCAAN3AAM7BA",
+        "username": "@Aaron_Cabrera",
+        "user_id": 635717705
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T16:43:46.669580"
+    },
+    "1778838332": {
+      "id": "1778838332",
+      "user_id": 7488504859,
+      "data": {
+        "name": "Тест",
+        "age": "Тест",
+        "district": "Тест",
+        "visit": "Тест",
+        "hobbies": "Тест",
+        "photo_id": "AgACAgIAAxkBAAP2agbrOkqmQVogesvU-A_gorwaE7oAAmIUaxtPtTlIN7C2LwSA_IwBAAMCAAN4AAM7BA",
+        "username": "@нет",
+        "user_id": 7488504859
+      },
+      "votes": {
+        "635717705": "no"
+      },
+      "status": "rejected",
+      "created_at": "2026-05-15T16:45:32.592082"
+    },
+    "1778838501": {
+      "id": "1778838501",
+      "user_id": 912268624,
+      "data": {
+        "name": "Badick",
+        "age": "27",
+        "district": "Улица: Ебать вас не должно",
+        "visit": "Всегда",
+        "hobbies": "Я люблю флеш с водкой, этим все сказано.",
+        "photo_id": "AgACAgIAAxkBAAIBB2oG6-P5Ba6XGIY4hUR4TeNQ7VXkAALKFGsbZd05SPHvyxvThS5OAQADAgADeQADOwQ",
+        "username": "@BadBadick",
+        "user_id": 912268624
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T16:48:21.085511"
+    },
+    "1778838636": {
+      "id": "1778838636",
+      "user_id": 874179312,
+      "data": {
+        "name": "Ксюхен",
+        "age": "23",
+        "district": "Северный",
+        "visit": "Всегда",
+        "hobbies": "Фотос, мячикс, книжкинсы, игоры, фильмсы",
+        "photo_id": "AgACAgIAAxkBAAIBGGoG7Gq_pNzqlTIzROfD1kAQsZvJAAJFE2sbYNs4SOlj1-9OaV-uAQADAgADeQADOwQ",
+        "username": "@Axuhen",
+        "user_id": 874179312
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T16:50:36.391870"
+    },
+    "1778840147": {
+      "id": "1778840147",
+      "user_id": 1031572105,
+      "data": {
+        "name": "Катерина 💅",
+        "age": "28",
+        "district": "Мой дом не район и не улица, мой адрес Советский Союз",
+        "visit": "Частенько",
+        "hobbies": "Волейбол, прогулки, настолки, настойки. \nУтром йога, вечером дорога пиво",
+        "photo_id": "AgACAgIAAxkBAAIBO2oG8lFmpVS3znSZsP6UX-idC1cBAAIiFGsboy05SN2CsVJLpBzgAQADAgADdwADOwQ",
+        "username": "@katrina_204",
+        "user_id": 1031572105
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T17:15:47.146053"
+    },
+    "1778840197": {
+      "id": "1778840197",
+      "user_id": 951322755,
+      "data": {
+        "name": "Пикмэ, и я горжусь этим именем",
+        "age": "22 или 13, решайте сами",
+        "district": "ты че маньяк?",
+        "visit": "без меня не будет событий",
+        "hobbies": "Вадя",
+        "photo_id": "AgACAgIAAxkBAAIBP2oG8oR2vhXbu0-Fd7PkkKUDNAJ6AALuFGsbu4g5SNCq3KtLp-P7AQADAgADeQADOwQ",
+        "username": "@Morsik6542",
+        "user_id": 951322755
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T17:16:37.842384"
+    },
+    "1778840789": {
+      "id": "1778840789",
+      "user_id": 408429492,
+      "data": {
+        "name": "Фимочек",
+        "age": "26",
+        "district": "Свердловский",
+        "visit": "Никогда",
+        "hobbies": "Пародировать Патракова, мешать коктейли, клеить альтушек",
+        "photo_id": "AgACAgIAAxkBAAIBUWoG9NNVVabAllGvwbRm1OC5tLccAAK0FGsbwtQ4SJ2-afwHgOJ9AQADAgADeQADOwQ",
+        "username": "@Fimiam2",
+        "user_id": 408429492
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T17:26:29.504223"
+    },
+    "1778845143": {
+      "id": "1778845143",
+      "user_id": 6592750179,
+      "data": {
+        "name": "nadin",
+        "age": "23",
+        "district": "Центральный",
+        "visit": "сейчас",
+        "hobbies": "люблю хуй корнеева и маму",
+        "photo_id": "AgACAgIAAxkBAAIBYmoHBdX5KETYDZu-04jk_cTKbCnHAAInE2sb94w4SCl3BF8-CIBdAQADAgADdwADOwQ",
+        "username": "@nadinshhh",
+        "user_id": 6592750179
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-15T18:39:03.308973"
+    },
+    "1779010962": {
+      "id": "1779010962",
+      "user_id": 7488504859,
+      "data": {
+        "name": ".",
+        "age": ".",
+        "district": ".",
+        "visit": ".",
+        "hobbies": "Test",
+        "photo_id": "AgACAgIAAxkBAAIBdGoJjZKkyRkOB79an8PC7NoeK6IvAAKZGGsbZQpISLjdFLLbCrsRAQADAgADeQADOwQ",
+        "username": "@нет",
+        "user_id": 7488504859
+      },
+      "votes": {
+        "635717705": "yes"
+      },
+      "status": "approved",
+      "created_at": "2026-05-17T16:42:42.841026"
+    }
+  },
+  "1003953082698": {
+    "users": {},
+    "admins": {
+      "635717705": 3
+    }
+  }
+}

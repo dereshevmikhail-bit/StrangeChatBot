@@ -1150,6 +1150,11 @@ async def on_message(message: types.Message):
     user_id = message.from_user.id
     admin_level = get_admin_level(chat_id, user_id)
     print(f"DEBUG: chat_id={chat_id}, thread_id={message.message_thread_id}")
+     # --- Временный отлов стикеров (показывает file_id) ---
+    if message.sticker:
+        sticker_id = message.sticker.file_id
+        await message.answer(f"ID стикера:\n`{sticker_id}`", parse_mode="Markdown")
+        return
 
     # --- Триггеры на стикеры ---
 

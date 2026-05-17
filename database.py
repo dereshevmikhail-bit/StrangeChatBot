@@ -329,10 +329,14 @@ def get_weekly_activity(chat_id: int, user_id: int) -> int:
 
 # Формат: {"слово": "file_id_стикера"}
 STICKER_TRIGGERS = {
-    "привет": "CAACAgIAAxkBAA...",  # Замени на реальные file_id
-    "пока": "CAACAgIAAxkBAA...",
-    "доброе утро": "CAACAgIAAxkBAA...",
-    "спокойной ночи": "CAACAgIAAxkBAA...",
+    "оля": "CAACAgIAAyEFAATrn0FKAAO1agn-lpRGEteJydz6wpAEBqVcYTkAAg-XAAIpMfBLS9nR96ehgvE7BA",  # Замени на реальные file_id
+    "вика": "CAACAgIAAxkBAAIBfGoJ-oyKNOGYXjMnMoZc0rVCPLhMAAIUnAACGdHxSzK8pVSlPaj4OwQ",
+    "маша": "CAACAgIAAxkBAAIBjGoKAZ6sCV0OJMgloyLStpPHFgFdAAIYnAACc5PxS-kkuetA3b8KOwQ",
+    "дима": "CAACAgIAAxkBAAIBfWoJ-w6Mc4Sx0mR1xfCh-4SJLq2CAAJjmgAC4TnxS-1xqrH4BvL7OwQ",
+    "радченко": "CAACAgIAAyEFAATrn0FKAAO0agn88KxbWqfoXov_HJr9M9CPt54AAg2bAAJg7elLYwABEqcSfm9fOwQ",
+    "рус": "CAACAgIAAxkBAAIBp2oKBZWi0HagP1sS3J8Cn1zBHKYhAAJzngACMdT4SwoUB0OIxoZmOwQ",
+    "руслан": "CAACAgIAAxkBAAIBp2oKBZWi0HagP1sS3J8Cn1zBHKYhAAJzngACMdT4SwoUB0OIxoZmOwQ",
+    "диана": "CAACAgIAAyEFAATrn0FKAAO2agn-_kVRSdq_AQg2HqYsjMapxEkAA6MAAtzxUUiQUDW2SpsOHjsE",
 }
 
 

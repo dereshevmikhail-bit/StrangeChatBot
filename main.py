@@ -1153,6 +1153,7 @@ async def on_message(message: types.Message):
         )
         return
 
+
     if message.text is None:
         return
     if message.text.startswith("/"):

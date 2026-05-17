@@ -1133,6 +1133,9 @@ async def cmd_rank(message: types.Message):
 
 @dp.message()
 async def on_message(message: types.Message):
+     if message.sticker:
+        print(f"Sticker file_id: {message.sticker.file_id}")
+        await message.answer(f"file_id: `{message.sticker.file_id}`", parse_mode="Markdown")
     if message.chat.type == "private":
         await message.answer("🚫 Я работаю только в группах. Добавь меня в чат!")
         return
@@ -1148,7 +1151,16 @@ async def on_message(message: types.Message):
     admin_level = get_admin_level(chat_id, user_id)
     print(f"DEBUG: chat_id={chat_id}, thread_id={message.message_thread_id}")
 
+    # --- Триггеры на стикеры ---
+
+    for word in STICKER_TRIGGERS:
+        if word in text_lower:
+            sticker_id = STICKER_TRIGGERS[word]
+            await message.answer_sticker(sticker_id)
+            return
+
     # --- Команды для всех --
+    
     if text_lower.startswith("бот дай мне ник"):
         prefix = "бот дай мне ник"
         nickname = message.text[len(prefix):].strip()

@@ -779,11 +779,11 @@ async def do_remove_admin(message: types.Message, admin_id: int, admin_level: in
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message, state: FSMContext):
     if message.chat.type == "private":
-        # Проверяем, не подавал ли уже заявку
         await message.answer(
             "👋 Привет! Чтобы попасть в чат, нужно заполнить анкету.\n\n"
             "Напиши <b>анкета</b>, чтобы начать.\n"
-            "Или <b>отмена</b>, чтобы выйти.",
+            "Или <b>отмена</b>, чтобы выйти.\n\n"
+            "📸 Можешь также отправить мне стикер, чтобы узнать его ID.",
             parse_mode="HTML"
         )
     else:
@@ -1133,11 +1133,24 @@ async def cmd_rank(message: types.Message):
 
 @dp.message()
 async def on_message(message: types.Message):
-     if message.sticker:
+    if message.sticker:
         print(f"Sticker file_id: {message.sticker.file_id}")
         await message.answer(f"file_id: `{message.sticker.file_id}`", parse_mode="Markdown")
     if message.chat.type == "private":
-        await message.answer("🚫 Я работаю только в группах. Добавь меня в чат!")
+        # Обработка стикеров в личке
+        if message.sticker:
+            sticker_id = message.sticker.file_id
+            await message.answer(f"ID стикера:\n`{sticker_id}`", parse_mode="Markdown")
+            return
+        # Остальные сообщения в личке
+        if not message.text:
+            return
+        if message.text.lower() in ["анкета", "отмена"]:
+            return  # Обрабатывается в FSM
+        await message.answer(
+            "👋 Напиши <b>анкета</b>, чтобы подать заявку, или отправь стикер для получения ID.",
+            parse_mode="HTML"
+        )
         return
 
     if message.text is None:

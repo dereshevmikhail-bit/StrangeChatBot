@@ -325,3 +325,17 @@ def get_weekly_activity(chat_id: int, user_id: int) -> int:
         except:
             pass
     return total_msgs
+# ==================== ТРИГГЕРЫ ====================
+
+# Формат: {"слово": "file_id_стикера"}
+STICKER_TRIGGERS = {
+    "привет": "CAACAgIAAxkBAA...",  # Замени на реальные file_id
+    "пока": "CAACAgIAAxkBAA...",
+    "доброе утро": "CAACAgIAAxkBAA...",
+    "спокойной ночи": "CAACAgIAAxkBAA...",
+}
+
+
+def get_sticker_for_word(word: str) -> str | None:
+    """Возвращает file_id стикера для слова, или None"""
+    return STICKER_TRIGGERS.get(word.lower())
